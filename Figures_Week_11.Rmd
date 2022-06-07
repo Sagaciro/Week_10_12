@@ -25,7 +25,7 @@ library(base)
 ```{r, include=FALSE, echo=FALSE}
 profile_ecoli_df <- read_csv("matrix_profile_ecoli")
 
-ecoli_pangenome_annot <- read.delim("Escherichia_coli_pangenome.tsv", header=FALSE)
+ecoli_pangenome_annot <- read.delim("panphlan_Escherichia_coli_annot.tsv", header=FALSE)
 
 colnames(ecoli_pangenome_annot)[1] <- "Annotation"
 
